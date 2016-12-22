@@ -15,10 +15,10 @@ public final class TwitterFetcher {
 		// Set up the configuration for the twitter fetcher with the necessary Keys
 		ConfigurationBuilder cb = new ConfigurationBuilder();
 		cb.setDebugEnabled(true)
-		.setOAuthConsumerKey("iZ4CmD3cO2076F3L0973P4IvW")
-		.setOAuthConsumerSecret("1dbEHD0p2GpkTiyn0TDuxy11IuUV94Eq4WH0jIh42Ls7faLl6w")
-		.setOAuthAccessToken("356514451-nbN0w6uL2isfWy1Sz5iYy75XIXPCM8R2eZBVVfHK")
-		.setOAuthAccessTokenSecret("kS0KMcdEI4XiYCJ2CMVcXTE4EOiCnHcvGoLHj9dkMpugm");
+		.setOAuthConsumerKey("[your consumer key]")
+		.setOAuthConsumerSecret("[your consumer secret key]")
+		.setOAuthAccessToken("[your access token]")
+		.setOAuthAccessTokenSecret("[your access token secret]");
 		
 		// Use TwitterFactory to build a Twitter object
 		TwitterFactory tf = new TwitterFactory(cb.build());
