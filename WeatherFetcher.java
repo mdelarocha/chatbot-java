@@ -43,7 +43,7 @@ public class WeatherFetcher {
 	{
 		// Set the API url for zipcodes from openweathermap.org
 		String weatherURL = "http://api.openweathermap.org/data/2.5/weather?zip="
-				+ zip + ",us&APPID=96d8891c06921671bf8aa291a77e2a55";
+				+ zip + ",us&APPID=[your app id from openweather.org]";
 		
 		// Get the json object as a string by passing the url in the zip format
 		String object = getObject(weatherURL);
