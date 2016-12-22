@@ -1,6 +1,8 @@
 # chatbot-java
 Chatbot Program that Utilizes Twitter and Openweather APIs in real time in a freenode chat server. 
 
+*You will need to havea a twitter account, login into dev.twitter.com and get your personal consumer and access keys. As well, subscribe to openweather.org for a free API key. 
+
 1) Go to the following link: https://webchat.freenode.net
 
 2) Set a unique nickname in the server and connect to a channel of your choice, that is set by you in the Project2main.java of the folder.
