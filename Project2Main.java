@@ -17,7 +17,7 @@ public class Project2Main {
 		bot.connect("irc.freenode.net");
 		
 		// Join the #pircbot channel. 
-		bot.joinChannel("#cs2336");
+		bot.joinChannel("[#yourchannel]");
 	}
 
 }
