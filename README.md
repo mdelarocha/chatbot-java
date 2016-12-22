@@ -3,11 +3,13 @@ Chatbot Program that Utilizes Twitter and Openweather APIs in real time in a fre
 
 1) Go to the following link: https://webchat.freenode.net
 
-2) Set a unique nickname in the server and connect to a channel of your choice, that is found in the Project2main.java of the folder.
+2) Set a unique nickname in the server and connect to a channel of your choice, that is set by you in the Project2main.java of the folder.
 
-3) Run the Java Program and wait for the bot to connect to the channel, nicknamed "MyTerminator". All jar files must be added to the
+3) Run the Java Program and wait for the bot to connect to the channel, nicknamed "MyTerminator". All jar files (gson.jar, 
 
-   project as external libraries in order to run, that is done by building a path from the project to the .jar files attached.
+   twitter4j-core-4.0.4 and pircbot.jar) must be added to the project as external libraries in order to run, 
+   
+   that is done by building a path from the project to the .jar files attached.
    
 4) When the command "weather" (any case) is typed into the chat with a zipcode (i.e. 75080), 
 
